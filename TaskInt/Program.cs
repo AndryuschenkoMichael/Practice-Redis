@@ -16,16 +16,7 @@ namespace TaskInt
     {
         static void Main(string[] args)
         {
-            try
-            {
-                RedisClient.Connect("localhost");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                return;
-            }
-            
+
         }
     }
 }
